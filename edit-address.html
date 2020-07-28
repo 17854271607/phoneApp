@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<script src="js/PCASClass.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/edit-address.css"/>
+		<script type="text/javascript">
+			$(function() {
+				new PCAS("province", "city", "area", "山东省", "青岛市", "市北区");
+			});
+		</script>
+		
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header>
+			<div class="back"><img src="img/back.png"></div>
+			<div class="line"><img src="img/Line.png"></div>
+			<div class="title">编辑地址</div>
+			<div class="more"><img src="img/page1_03.jpg"></div>
+		</header>
+		
+		<!-- 内容 -->
+		<div class="content">
+			<!-- 名字电话 -->
+			<div class="info">
+				<input type="text" class="name" placeholder="名字" value="王先生">
+				<input type="text" class="tel" placeholder="电话" value="17854271607">
+			</div>
+			<!-- 省市区选择 -->
+			<div class="address">
+				<!-- <fieldset> -->
+					<div class="item">
+						<span>选择省份：</span>
+						<select name="province"></select>
+					</div>
+					<div class="item">
+						<span>选择城市：</span>
+						<select name="city"></select>
+					</div>
+					<div class="item">
+						<sapn>选择地区:</sapn>
+						<select name="area"></select>
+					</div>
+					
+				<!-- </fieldset> -->
+			</div>
+			<!-- 详细地址 -->
+			<div class="detail-address">
+				<input type="text" placeholder="请填写详细地址" value="宁夏路">
+			</div>
+		</div>
+		<!-- 保存按钮 -->
+		<div class="save">保存</div>
+	</body>
+</html>

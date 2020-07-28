@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+body {
+	background-color: #f8f8f8;
+}
+
+.red {
+	background-color: #FF2732;
+	color: #fff;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	padding: 9.33vw 3.87vw 0 3.33vw;
+	color: #fff;
+}
+
+header .back img {
+	width: 2.4vw;
+	height: 4.53vw;
+}
+
+header .line {
+	margin-left: 3.73vw;
+}
+
+header .line img {
+	width: 0.6vw;
+	height: 5.87vw;
+
+}
+
+header .title {
+	font-size: 4.53vw;
+	padding-left: 2.63vw;
+	box-sizing: border-box;
+}
+
+header .more img {
+	width: 0.93vw;
+	height: 4.4vw;
+	margin-left: 63.6vw;
+}
+
+.user {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10.53vw 3.2vw 3.47vw 6vw;
+}
+
+.user .item img {
+	width: 3.07vw;
+	height: 3.33vw;
+}
+
+.user .pic>span {
+	font-size: 4.27vw;
+}
+
+.user .text {
+	font-size: 3.2vw;
+	background-color: #d9b36c;
+	padding:0.93vw 3.07vw;
+	border-radius: 1vw;
+}
+
+.user .username {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.username .img {
+	width: 12vw;
+	height: 12vw;
+	background-color: white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 14vw;
+}
+
+.img img {
+	width: 6.53vw;
+	height: 6.8vw;
+
+}
+
+.username .name {
+	font-size: 3.47vw;
+}
+
+.username .name_id {
+	font-size: 2.67vw;
+}
+
+.content {
+	padding: 2.93vw 3.33vw 28.2vw 3.33vw;
+}
+
+.order {
+	background-color: white;
+	padding: 4.8vw 2.53vw;
+	border-radius: 2vw;
+}
+
+.con-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 3.73vw;
+}
+
+.con-title .right img {
+	width: 1.73vw;
+	height: 3.33vw;
+}
+
+.order ul {
+	/* margin-top:6.13vw ; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	font-size: 3.47vw;
+	padding-bottom: 4.93vw;
+	/* padding-top:4.93vw ; */
+}
+
+.order ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 7vw;
+	margin-top: 5.47vw;
+}
+
+.order ul li:last-child {
+	margin-right: 0vw;
+}
+
+.order ul li img {
+	width: 4.67vw;
+	height: 4.67vw;
+}
+
+.order ul li>div {
+	margin-top: 2.27vw;
+}
+
+.service {
+	margin-top: 2.27vw;
+}
+
+.last-ul {
+	border-top: 1px solid #ededed;
+}
+
+.last-ul li {
+	width: 14vw;
+	margin-top: 5.47vw;
+}
+
+.down {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-top: 0.2vw;
+	background-color: white;
+	padding-top: 2.53vw;
+	padding-bottom: 11.6vw;
+}
+
+.down ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.down ul li {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 3.47vw;
+}
+
+.down img {
+	width: 5.33vw;
+	height: 5.33vw;
+}

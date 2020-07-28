@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+header {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+	padding: 9.33vw 3.87vw 2.8vw 6.53vw;
+	background-color: white;
+}
+
+header .back img {
+	width: 2.4vw;
+	height: 4.53vw;
+}
+
+header .line {
+	margin-left: 3.73vw;
+}
+
+header .line img {
+	width: 0.4vw;
+	height: 5.87vw;
+
+}
+
+header .title {
+	font-size: 4.53vw;
+	padding-left: 2.63vw;
+	box-sizing: border-box;
+}
+
+header .more img {
+	width: 0.93vw;
+	height: 4.4vw;
+	margin-left: 56.53vw;
+}
+
+.content {
+	background-color: #efefef;
+}
+
+.content .info {
+	border-top: 0.2vw solid #efefef;
+	background-color: white;
+	display: flex;
+	font-size: 3.73vw;
+	border-bottom: 0.2vw solid #ededed;
+}
+
+.content .info .name {
+	padding: 4.13vw 0 3.47vw 4.93vw;
+	border: none;
+	border-right: 0.2vw solid #ededed;
+	outline: none;
+}
+
+.content .info .tel {
+	padding: 4.13vw 0 3.47vw 4.93vw;
+	border: none;
+	outline: none;
+}
+
+.address {
+	background-color: white;
+	font-size: 3.73vw;
+	display: flex;
+	justify-content: flex-start;
+	padding: 3.87vw 6.53vw;
+	color: #292929;
+
+}
+
+.address select {
+	width: 18vw;
+	border: none;
+	outline: none;
+}
+
+.detail-address {
+	background-color: white;
+	margin-top: 0.2vw;
+	display: flex;
+	font-size: 3.73vw;
+	border-bottom: 0.2vw solid #ededed;
+}
+
+.detail-address input {
+	width: 100vw;
+	padding: 4.13vw 4.93vw;
+	border: none;
+	border-right: 0.2vw solid #ededed;
+	outline: none;
+}
+
+.save {
+	padding: 4.27vw 0;
+	text-align: center;
+	width: 100vw;
+	color: white;
+	font-size: 3.73vw;
+	background-color: #ff2732;
+	position: fixed;
+	bottom: 0;
+}

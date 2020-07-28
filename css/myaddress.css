@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+header {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+	padding: 9.33vw 3.87vw 2.8vw 6.53vw;
+	background-color: white;
+}
+
+header .back img {
+	width: 2.4vw;
+	height: 4.53vw;
+}
+
+header .line {
+	margin-left: 3.73vw;
+}
+
+header .line img {
+	width: 0.4vw;
+	height: 5.87vw;
+
+}
+
+header .title {
+	font-size: 4.53vw;
+	padding-left: 2.63vw;
+	box-sizing: border-box;
+}
+
+header .more img {
+	width: 0.93vw;
+	height: 4.4vw;
+	margin-left: 56.53vw;
+}
+
+.content {
+	background-color: #efefef;
+}
+
+.item {
+	border-top: 0.2vw solid #efefef;
+	background-color: white;
+	padding: 3.87vw 4.67vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	font-size: 3.73vw;
+}
+
+.item span {
+	margin-top: 3.07vw;
+}
+
+.item span>input,
+.item span>textarea {
+	width: 70vw;
+	border: none;
+	outline: none;
+}
+
+.edit {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.2vw;
+	background-color: white;
+	padding: 2.93vw 5.73vw 2.93vw 4.8vw;
+}
+
+.edit .left span {
+	font-size: 3.47vw;
+}
+
+.edit .but-edit {
+	padding: 1.47vw 7.07vw;
+	background-color: #ff2732;
+	color: white;
+	border-radius: 2vw;
+	margin-left: 37.87vw;
+	font-size: 3.73vw;
+}
+
+.edit img {
+	width: 5.47vw;
+	height: 5.73vw;
+}
+
+.edit_default {
+	margin-top: 2vw;
+}
+
+.save {
+	padding: 4.27vw 0;
+	text-align: center;
+	width: 100vw;
+	color: white;
+	font-size: 3.73vw;
+	background-color: #ff2732;
+	position: fixed;
+	bottom: 0;
+}

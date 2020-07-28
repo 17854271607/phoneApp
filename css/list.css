@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+body {
+	background-color: #efefef;
+}
+
+header {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+	padding: 9.33vw 3.87vw 0 6.53vw;
+	background-color: white;
+}
+
+header .back img {
+	width: 2.4vw;
+	height: 4.53vw;
+}
+
+header .line {
+	margin-left: 3.73vw;
+}
+
+header .line img {
+	width: 0.4vw;
+	height: 5.87vw;
+
+}
+
+header .title {
+	font-size: 4.53vw;
+	padding-left: 2.63vw;
+	box-sizing: border-box;
+}
+
+header .more img {
+	width: 0.93vw;
+	height: 4.4vw;
+	margin-left: 11.5vw;
+}
+
+.content {
+	padding: 5.6vw 3.33vw;
+	background-color: white;
+}
+
+.content .search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2.67vw 21.47vw;
+	background-color: #f4f8f7;
+	border-radius: 2vw;
+	font-size: 3.47vw;
+	color: #7d7d7d;
+}
+
+.content .search img {
+	width: 4vw;
+	height: 3.73vw;
+}
+
+.content .search .text {
+	margin-left: 2vw;
+}
+
+.list {
+	display: flex;
+	margin-top: 0.2vw;
+	padding-bottom: 24vw;
+}
+
+.left {
+	background-color: white;
+	
+}
+
+.left ul {
+	padding: 5.33vw 3.07vw;
+}
+
+.left ul li {
+	width: 14vw;
+	font-size: 3.47vw;
+	margin-bottom: 6.27vw;
+}
+
+.right {
+	background-color: white;
+	margin-left: 0.2vw;
+	padding: 3.73vw 3.87vw 0 4.27vw;
+	box-sizing: border-box;
+}
+
+.right .bigImg img {
+	width: 71.2vw;
+	height: 27.6vw;
+}
+
+.right .listTitle {
+	font-size: 3.47vw;
+	margin-top: 12.13vw;
+	border-bottom: 1px #efefef solid;
+	padding-bottom: 1.47vw;
+	font-weight: bold;
+}
+
+.firstTitle {
+	margin-top: 3.33vw !important;
+}
+
+.listGoods {
+	padding-right: 10vw;
+	font-size: 3.47vw;
+}
+
+.listGoods ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.listGoods ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin-right: 7vw;
+	margin-top: 6.8vw;
+}
+
+.listGoods ul li img {
+	width: 8.8vw;
+	height: 10vw;
+	margin: 0 auto;
+}
+
+.listGoods ul li div {
+	text-align: center;
+	font-size: 3.47vw;
+
+}
+
+.center {
+	margin-top: 12.4vw;
+	padding-bottom: 7.47vw;
+}
+
+.down {
+	width: 100%;
+	position: fixed;
+	/* z-index: 9999vw; */
+	bottom: 0;
+	margin-top: 0.2vw;
+	background-color: white;
+	padding-top: 2.53vw;
+	padding-bottom: 11.6vw;
+}
+
+.down ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.down ul li {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 3.47vw;
+}
+
+.down img {
+	width: 5.33vw;
+	height: 5.33vw;
+}
+
+.red {
+	color: red;
+}
